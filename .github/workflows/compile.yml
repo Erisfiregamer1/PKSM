@@ -11,9 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     container: 
       image: fmcore/flagbrew_compiler
-      credentials:
-        username: ${{ secrets.DHU }}
-        password: ${{ secrets.DHA }}
 
     steps:
       - name: "Clone"
