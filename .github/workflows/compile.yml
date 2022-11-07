@@ -9,8 +9,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: 
-      image: fmcore/flagbrew_compiler
 
     steps:
       - name: "Clone"
